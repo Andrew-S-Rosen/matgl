@@ -49,7 +49,7 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 dependencies = [
-    "ase",
+    "ase>=3.26.0",
     "dgl<=2.1.0; sys.platform == 'win32'",
     "dgl<=2.2.0; sys.platform == 'darwin'",
     "torch<=2.2.0; sys.platform != 'linux'",
